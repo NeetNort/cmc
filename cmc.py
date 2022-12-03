@@ -82,6 +82,6 @@ if __name__ == "__main__":
             convertId=2781,                             # NOTE: This should convert the response prices into USD
             startIndex=1,                               # NOTE: The raw coin index in the result set to start from (1 means start with the first coin and return 1 + limit)
             limit=10000,                                # NOTE: The limit of coins to return for each day
-            outfilePath="./test.json"                   # NOTE: The outfile directory where the json file will be saved
+            outfilePath="data/test.json"                # NOTE: The outfile directory where the json file will be saved
         )
     )
