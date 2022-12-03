@@ -54,7 +54,6 @@ async def getHistoricalDataForDateRangeAsync(
     limit: Union[int, str] = 200,
     outfilePath: str = "./cmc_data.json"
 ) -> None:
-    days = generateDateRange(startDate, endDate)
     userAgentHelper: UserAgent = UserAgent(limit=1000, software_names=[SoftwareName.CHROME.value], operating_systems=[OperatingSystem.WINDOWS.value, OperatingSystem.LINUX.value])
     async with ClientSession() as session:
         data: list = list(
@@ -68,7 +67,7 @@ async def getHistoricalDataForDateRangeAsync(
                             start=startIndex,
                             userAgent=userAgentHelper.get_random_user_agent(),
                             session=session
-                        ) for day in days
+                        ) for day in generateDateRange(startDate, endDate)
                     ]
                 )
             )
@@ -78,7 +77,7 @@ async def getHistoricalDataForDateRangeAsync(
             dump(data, datafile)
 
 if __name__ == "__main__":
-    set_event_loop_policy(WindowsSelectorEventLoopPolicy()) # NOTE: If you are not on windows remove this - no idea how it applies to other OS
+    set_event_loop_policy(WindowsSelectorEventLoopPolicy()) # NOTE: Remove if not on windows, unsure how this would be handled on another OS
     run(
         getHistoricalDataForDateRangeAsync(
             startDate=date(2021, 1, 1),                 # NOTE: The first day (inclusive) to query historical data for
