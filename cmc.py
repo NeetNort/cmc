@@ -1,11 +1,9 @@
-""" [NOTE About] '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-    [Author] NeetNort
-        [Twitter] https://twitter.com/NeetNort
-        [Github] https://github.com/NeetNort
-    [Date] 12/02/2022
-    [Python Version] 3.9.0
-    [Description] Helpful utilities for working with CoinMarketCap data
-''' /[NOTE About] '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''"""
+"""
+[Author] NeetNort (https://twitter.com/NeetNort | https://github.com/NeetNort)
+[Date] 12/02/2022
+[Python Version] 3.9.0
+[Description] Helpful utilities for working with CoinMarketCap data
+"""
 import sys
 from aiohttp import ClientSession
 from json import dump
