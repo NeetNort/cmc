@@ -1,5 +1,5 @@
-/venv
-/ignore
+venv/
+ignore/
 
 #################################################################################################################
 # Below here is official python .gitignore from: https://github.com/github/gitignore/blob/main/Python.gitignore #
