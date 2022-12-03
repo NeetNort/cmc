@@ -1,4 +1,4 @@
-"""Utilities that wraps terminal codes for colored output"""
+"""Utility that wraps terminal codes for colored output"""
 class TerminalColors:
     purple    = "\033[95m"
     blue      = "\033[94m"
@@ -8,4 +8,4 @@ class TerminalColors:
     red       = "\033[91m"
     end       = "\033[0m"
     bold      = "\033[1m"
-    underling = "\033[4m"
+    underline = "\033[4m"
