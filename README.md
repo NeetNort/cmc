@@ -1,10 +1,11 @@
-<span style="color:red">@NeetNort</span>
-<span style="color:red">**[Twitter]** *https://twitter.com/NeetNort*</span>
-<span style="color:red">**[Github]** *https://github.com/NeetNort*</span>
-<span style="color:red">**[Date]** 12/02/2022</span>
-<span style="color:red">**[PythonVersion]** 3.9.0</span>
-<span style="color:red">**[Description]** Helpful utilities for working with CoinMarketCap data</span>
-
+```diff
+@@[Author] NeetNort@@
+@@[Twitter] https://twitter.com/NeetNort@@
+@@[Github] https://github.com/NeetNort@@
+@@[Date] 12/01/2022@@
+@@[Python Version] 3.9.0@@
+@@[Description] A BitMex API wrapper prototype@@
+```
 # Installation
 <p>pip install -r requirements.txt</p>
 
