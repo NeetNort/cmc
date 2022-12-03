@@ -3,7 +3,7 @@
 #| [Author] NeetNort                                                       |#
 #| [Twitter] https://twitter.com/NeetNort                                  |#
 #| [Github] https://github.com/NeetNort                                    |#
-#| [Date] 12/01/2022                                                       |#
+#| [Date] 12/02/2022                                                       |#
 #| [Python Version] 3.9.0                                                  |#
 #| /INFO ------------------------------------------------------------------|#
 
