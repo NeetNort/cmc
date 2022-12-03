@@ -7,7 +7,6 @@
     [Description] Helpful utilities for working with CoinMarketCap data
 ''' /[NOTE About] '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''"""
 import sys
-from requests import get
 from aiohttp import ClientSession
 from json import dump
 from random_user_agent.user_agent import UserAgent
